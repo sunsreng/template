@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
+  navList = [
+    { name: 'Home', icon: 'home', urls: '/'},
+    { name: 'Claim', icon: 'home', urls: '/'},
+    { name: 'Product', icon: 'home', urls: '/'},
+    { name: 'Admin', icon: 'home', urls: '/'}
+  ];
 }
