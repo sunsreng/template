@@ -3,12 +3,5 @@
   flex: 1;
 }
 
-mat-sidenav {
-  width: 320px;
-}
 
-.mat-button {
-  display: flex;
-  flex-grow: 1;
-}
 
